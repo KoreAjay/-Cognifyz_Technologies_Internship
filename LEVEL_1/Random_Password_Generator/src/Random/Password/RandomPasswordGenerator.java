@@ -2,11 +2,9 @@ package Random.Password;
 
 import java.util.Random;
 import java.util.Scanner;
-
 public class RandomPasswordGenerator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         // Prompt the user to enter the desired length of the password
         System.out.print("Enter the desired length of the password: ");
         int length = 0;
