@@ -5,11 +5,9 @@ import java.util.Scanner;
 public class StudentGradeCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         // Prompt the user to enter the number of grades
         System.out.print("Enter the number of grades to be entered: ");
         int numberOfGrades = 0;
-        
         try {
             numberOfGrades = Integer.parseInt(scanner.nextLine());
             if (numberOfGrades <= 0) {
