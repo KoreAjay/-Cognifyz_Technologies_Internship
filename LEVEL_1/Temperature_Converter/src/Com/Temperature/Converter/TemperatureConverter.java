@@ -1,12 +1,9 @@
 package Com.Temperature.Converter;
-
 import java.util.Scanner;
-
 public class TemperatureConverter {
 	
 public static double celsiusToFahrenheit(double celsius) {
 	return (celsius *9/5)+32;
-	
 }
 public static double fahrenheitToCelsius(double fahrenheit)
 {
